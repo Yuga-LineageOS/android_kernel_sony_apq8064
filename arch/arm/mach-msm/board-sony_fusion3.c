@@ -3716,7 +3716,6 @@ static struct platform_device *common_devices[] __initdata = {
 #ifdef CONFIG_BATTERY_BCL
 	&battery_bcl_device,
 #endif
-	&apq8064_msm_mpd_device,
 #ifdef CONFIG_SONY_ONESEG_TUNER_PM
 	&oneseg_tunerpm_device,
 #endif
